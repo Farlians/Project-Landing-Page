@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+/* Comiezo header */
+.header{
+background: #1F2937;
+color: white;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header .links a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+}
+.header .links{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+}
+/* Comiezo Section 1 */
+.section1{
+    background: #1F2937;
+    height: 400px;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section1 .container{
+display: flex;
+flex-wrap: wrap;
+height: 200px;
+width: 500px;
+}
+.section1 .title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;    
+}
+.section1 .subtext{
+    font-size: 18px;
+    color:  rgb(168, 168, 168)
+}
+.section1 .sing{
+    background: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.section1 .img{
+background: grey;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+width: 500px;
+}
+/* Comienzo section 2 */
+.section2{
+    text-align: center;
+    }
+
+.section2 .title{
+    padding-top: 30px;
+    color: #1F2937;
+}
+.section2 .container{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.section2 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.section2 .img{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+/* Comienzo section 3 */
+.section3{
+    background: #E5E7EB;
+    display: flex;
+    padding: 100px ;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.section3 .box{
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+}
+.section3 .author{
+    color: #1F2937;
+    font-family: light italic;
+    font-size: 20px;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+/* Comienzo section 4 */
+.section4{
+padding: 100px 500px;
+}
+.section4 .card{
+    background: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section4 button{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+}
+/* footer */
+footer{
+    background: #1F2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

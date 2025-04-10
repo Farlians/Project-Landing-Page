@@ -39,7 +39,7 @@ align-items: center;
 }
 .section1 .container{
 display: flex;
-flex-wrap: wrap;
+
 height: 200px;
 width: 500px;
 }
@@ -81,6 +81,7 @@ width: 500px;
 .section2 .container{
     padding: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -125,28 +126,44 @@ width: 500px;
 }
 /* Comienzo section 4 */
 .section4{
-padding: 100px 500px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 64px 200px;
 }
 .section4 .card{
-    background: #3882f6;
-    color: white;
-    border-radius: 10px;
     display: flex;
-    padding: 40px ;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-}
-.section4 button{
-    background: transparent;
-    border: 1px solid white;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 48px 100px;
+    width:900px;
     border-radius: 10px;
-    color: white;
-    padding: 5px 20px;
+}
+.section4 h1{
+font-size: 24px;
+margin: 0;
+color: #F9FAF8;
+}
+.section4 p {
+    margin: 0;
+    color: #ced0ce;
+}
+
+.section4 button{
+    background:#3a86ff;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+    width: 100px;
+    height:30px; 
 }
 /* footer */
 footer{
     background: #1F2937;
     color: white;
+    width: auto;
     height: 100px;
     display: flex;
     justify-content: center;
